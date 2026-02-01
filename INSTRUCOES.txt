@@ -1,0 +1,157 @@
+═══════════════════════════════════════════════════════════════════
+   🍰 ATELIÊ DOCE MELL - INSTRUÇÕES DE INSTALAÇÃO E USO
+═══════════════════════════════════════════════════════════════════
+
+📋 REQUISITOS
+─────────────────────────────────────────────────────────────────
+✓ Node.js 18 ou superior (baixe em: https://nodejs.org)
+✓ Editor de código (recomendamos VS Code)
+✓ Terminal/Prompt de comando
+
+═══════════════════════════════════════════════════════════════════
+🚀 PASSO A PASSO PARA RODAR O SITE
+═══════════════════════════════════════════════════════════════════
+
+1️⃣  EXTRAIR ARQUIVOS
+   - Extraia todo o conteúdo do ZIP em uma pasta
+   - Exemplo: C:\Sites\atelie-doce-mell
+
+2️⃣  ABRIR TERMINAL
+   - Abra o terminal/cmd na pasta do projeto
+   - Windows: Shift + Botão Direito → "Abrir janela PowerShell aqui"
+   - Mac/Linux: Botão direito → "Abrir no Terminal"
+
+3️⃣  INSTALAR DEPENDÊNCIAS
+   Digite no terminal:
+   
+   npm install
+   
+   (Aguarde alguns minutos - é normal!)
+
+4️⃣  RODAR O PROJETO
+   Digite no terminal:
+   
+   npm run dev
+   
+5️⃣  ACESSAR O SITE
+   Abra o navegador em:
+   
+   http://localhost:3000
+
+═══════════════════════════════════════════════════════════════════
+✏️  COMO EDITAR INFORMAÇÕES DO SITE
+═══════════════════════════════════════════════════════════════════
+
+📄 ARQUIVO PRINCIPAL: src/config.js
+
+Neste arquivo você pode editar:
+
+✓ Número do WhatsApp
+✓ Cores da marca
+✓ Cidades atendidas
+✓ Tipos de doces
+✓ Números (KPIs) da página inicial
+✓ Pacotes oferecidos
+✓ Depoimentos de clientes
+✓ Posts do blog
+✓ Perguntas do FAQ
+
+EXEMPLO DE EDIÇÃO:
+─────────────────────────────────────────────────────────────────
+Abra: src/config.js
+
+Encontre:
+  whatsapp: '+5522998911904',
+
+Altere para seu número:
+  whatsapp: '+5511999998888',
+
+Salve o arquivo!
+O site atualiza automaticamente.
+
+═══════════════════════════════════════════════════════════════════
+🖼️  COMO ADICIONAR IMAGENS
+═══════════════════════════════════════════════════════════════════
+
+1. Coloque suas imagens na pasta: public/
+2. Nomeie adequadamente:
+   - logo.png (logo do ateliê)
+   - hero-bg.jpg (imagem principal)
+   - doces-1.jpg, doces-2.jpg, etc.
+
+3. As imagens aparecerão automaticamente nos lugares certos!
+
+═══════════════════════════════════════════════════════════════════
+🌐 COMO PUBLICAR O SITE NA INTERNET
+═══════════════════════════════════════════════════════════════════
+
+OPÇÃO 1: VERCEL (Mais Fácil - GRÁTIS)
+─────────────────────────────────────────────────────────────────
+1. Crie conta em: https://vercel.com
+2. No terminal, digite:
+   
+   npm install -g vercel
+   vercel
+   
+3. Siga as instruções na tela
+4. Pronto! Seu site estará online em minutos!
+
+OPÇÃO 2: NETLIFY (GRÁTIS)
+─────────────────────────────────────────────────────────────────
+1. Acesse: https://netlify.com
+2. Arraste a pasta do projeto para o site
+3. Pronto!
+
+OPÇÃO 3: Servidor Próprio
+─────────────────────────────────────────────────────────────────
+1. No terminal, digite:
+   
+   npm run build
+   
+2. Envie a pasta "dist" para seu servidor
+3. Configure o domínio
+
+═══════════════════════════════════════════════════════════════════
+❓ PROBLEMAS COMUNS
+═══════════════════════════════════════════════════════════════════
+
+ERRO: "npm: command not found"
+→ Instale o Node.js: https://nodejs.org
+
+ERRO ao instalar
+→ Tente: npm install --legacy-peer-deps
+
+Porta 3000 em uso
+→ O Vite sugerirá outra porta automaticamente
+
+Site não atualiza
+→ Pare (Ctrl+C) e rode "npm run dev" novamente
+
+═══════════════════════════════════════════════════════════════════
+✅ CHECKLIST ANTES DE PUBLICAR
+═══════════════════════════════════════════════════════════════════
+
+□ Editei todos os dados em src/config.js
+□ Adicionei imagens reais em public/
+□ Testei todos os links do WhatsApp
+□ Verifiquei textos e informações
+□ Testei no celular
+□ Configurei Google Analytics (se necessário)
+
+═══════════════════════════════════════════════════════════════════
+📞 INFORMAÇÕES DO ATELIÊ
+═══════════════════════════════════════════════════════════════════
+
+Nome: Ateliê Doce Mell
+Proprietária: Renata Tavares
+WhatsApp: (22) 99891-1904
+Localização: Iguaba Grande - RJ
+
+═══════════════════════════════════════════════════════════════════
+
+Site desenvolvido com React + Vite + Tailwind CSS
+Totalmente responsivo e otimizado para SEO
+
+Boa sorte com seu novo site! 🍰✨
+
+═══════════════════════════════════════════════════════════════════
